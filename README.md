@@ -7,8 +7,8 @@ Download the code and open it in Android Studio. Then connect your device via da
 You can change the type in the app constant file (NEWS_FEED_TOPIC field value must be changed)
 
 ## Features & Technology
-Kotlin Language
-MVVM Pattern Architecture
+Kotlin Language,
+MVVM Pattern Architecture,
 Coroutine
 
 
