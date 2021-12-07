@@ -14,6 +14,3 @@ MVVM Architecture
 Simply download the code and Open in Android Studio. Then connect your Device via datacable and run the application.
 You can change the type in AppConstants file(NEWS_FEED_TOPIC field value need to be change)
 
-
-## API Key
-3ea246a50f67424babfbf08944699ac6
