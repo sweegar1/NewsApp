@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:clickable="false"
+    android:orientation="vertical"
+    tools:context=".ui.view.NewsDetailsFragment">
+
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <ImageView
+        android:id="@+id/imageViewAvatar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/na_images"
+        android:scaleType="fitXY"
+        tools:ignore="contentDescription" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="@dimen/dimen_20_dp"
+        android:paddingRight="@dimen/dimen_20_dp">
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/dimen_20_dp"
+            android:paddingBottom="@dimen/dimen_5_dp"
+            android:textColor="@color/black"
+            android:textSize="@dimen/dimen_30_sp"
+            android:textStyle="bold"
+            tools:viewBindingType="TextView" />
+
+
+        <TextView
+            android:id="@+id/content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="@dimen/dimen_10_dp"
+            android:textColor="@color/black"
+            android:textSize="@dimen/dimen_20_dp"
+            tools:viewBindingType="TextView" />
+        <TextView
+            android:id="@+id/description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="@dimen/dimen_10_dp"
+            android:textSize="@dimen/dimen_20_sp"
+            android:textColor="@color/black"
+            tools:viewBindingType="TextView" />
+        <TextView
+            android:id="@+id/author"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="@dimen/dimen_20_dp"
+            android:textStyle="italic"
+            android:textAlignment="textEnd"
+            />
+
+    </LinearLayout>
+</LinearLayout>
+
+</ScrollView>
