@@ -1,16 +1,10 @@
 # NewsApp
 
-News App is a simple news app which uses NewsAPI to fetch top news headlines from the API. The main aim of this app is to be a leading example of how to build Modern Android applications for all Android Developers
+NewsApp is an Android application for displaying the latest news from the United States through the newsapi.org service.
 
-The codebase focuses on following key things:
+## installation
+Download the code and open it in Android Studio. Then connect your device via data cable and run the application.
+You can change the type in the app constant file (NEWS_FEED_TOPIC field value must be changed)
 
-Code structuring
-Code style
-Kotlin + Coroutines
-MVVM Architecture
-
-
-## Installation
-Simply download the code and Open in Android Studio. Then connect your Device via datacable and run the application.
-You can change the type in AppConstants file(NEWS_FEED_TOPIC field value need to be change)
-
+## API Key
+This need to be generated from the Site
